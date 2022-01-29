@@ -1,65 +1,27 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        myproject
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
-    </div>
-  </section>
+  <div class="container-inner m-auto leading-normal">
+    <ul class="list-reset">
+      <li class="mb-8">
+        <nuxt-link to="/blog/blog-post-1" class="text-xl no-underline text-black font-bold hover:text-grey-darkest">Blog Post 1</nuxt-link>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi similique magni, repellat vitae unde laboriosam cupiditate alias vel recusandae.</div>
+      </li>
+      <li class="mb-8">
+        <nuxt-link to="/blog/blog-post-2" class="text-xl no-underline text-black font-bold hover:text-grey-darkest">Blog Post 2</nuxt-link>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi similique magni, repellat vitae unde laboriosam cupiditate alias vel recusandae.</div>
+      </li>
+      <li class="mb-8">
+        <nuxt-link to="/blog/blog-post-3" class="text-xl no-underline text-black font-bold hover:text-grey-darkest">Blog Post 3</nuxt-link>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi similique magni, repellat vitae unde laboriosam cupiditate alias vel recusandae.</div>
+      </li>
+      <li class="mb-8">
+        <nuxt-link to="/blog/blog-post-4" class="text-xl no-underline text-black font-bold hover:text-grey-darkest">Blog Post 4</nuxt-link>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi similique magni, repellat vitae unde laboriosam cupiditate alias vel recusandae.</div>
+      </li>
+      <li class="mb-8">
+        <nuxt-link to="/blog/blog-post-5" class="text-xl no-underline text-black font-bold hover:text-grey-darkest">Blog Post 5</nuxt-link>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi similique magni, repellat vitae unde laboriosam cupiditate alias vel recusandae.</div>
+      </li>
+    </ul>
+  </div>
 </template>
-
-<script>
-import AppLogo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
 
